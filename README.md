@@ -25,55 +25,35 @@ The following image shows the web application's appearance and functionality:
   * Code should validate for each input and at least one character type should be selected
   * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
 
-## Grading Requirements
 
-This challenge is graded based on the following criteria: 
+**What i learned from completing this project:**
 
-### Technical Acceptance Criteria: 40%
+The image below displays in VS code the inital prompt a user will get when ***generate button*** is clicked.
 
-* Satisfies all of the above acceptance criteria plus the following:
+![prompt in VS code](assets/prompt.png)
 
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
+The image below displays in the browser the initial prompts a user will get when ***generate button*** is clicked. Once the user has selected the amount of characters that they would want (only between 10-64) if the user selects below 10 or over 64 characters the code will alert a message explaining must be more than 10 or less than 64. 
 
-### Deployment: 32%
+The browser will then deliver more prompts alerting the user to ensure they use special characters, numeric characters, lower cased characters and upper cased characters. Once the prompts have been confirmed a random password will be generated.
 
-* Application deployed at live URL.
+![prompt in browser](assets/promptbrowser.png)
 
-* Application loads with no errors.
+The image below displays the password that is generated once the user has selected how many characters they would like to use in the password. 
 
-* Application GitHub URL submitted.
+![assets/generatedpassword.png](assets/generatedpassword.png)
 
-* GitHub repository that contains application code.
+The image below shows what the console logs once the password in generated. 
 
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+![console.log](assets/consolelog.png)
 
 
-## Review
+## GitHub
 
-You are required to submit the following for review:
+https://github.com/bex-ford/module-5
 
-* The URL of the deployed application.
+## Licence 
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
+NONE
 ---
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
